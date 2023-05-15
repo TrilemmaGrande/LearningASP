@@ -1,39 +1,22 @@
-﻿using LearningASP.Models;
+﻿using Beispiel.FirstWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace LearningASP.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            string test = "";
-            for (int i = 0; i < 10; i++)
+            string uhrzeit = DateTime.Now.ToShortTimeString();
+            string text = DateTime.Now.Hour < 12 ? "Guten Morgen" : "Guten Tag";
+
+            DifferentViewViewModel vm = new DifferentViewViewModel()
             {
-                for (int j = 0; j < 10; j++)
-                {
-                    if (i + j == 10)
-                    {
-                        test+='x';
-                    }
-                    else if (i == j & i > 0)
-                    {
-                        test += 'x';
-                    }
-                    else
-                    {
-                        test += ' ';
-                    }
-                }
-                test += '\n';
-            }
-            return test;
+                Uhrzeit = uhrzeit,
+                Text = text
+            };
+            return View("DifferentView", vm);
         }
     }
 }
