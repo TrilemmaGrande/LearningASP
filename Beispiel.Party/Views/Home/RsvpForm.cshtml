@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+@model GuestResponse
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RsvpForm</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <h5 class="bg-primary text-white text-center m-2 p-2">RSVP</h5>
+            <form asp-action="RsvpForm" method="post" class="m-2">
+                <div class="form-group">
+                    <input asp-for="Name" class="form-control" placeholder="Name *" />
+                    <span asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="Email" class="form-control" placeholder="Email *" />
+                    <span asp-validation-for="Email"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="Phone" class="form-control" placeholder="Phone *">
+                    <span asp-validation-for="Phone"></span>
+                </div>
+                <div class="form-group">
+                    <select asp-for="WillAttend" class="form-control">
+                        <option value="">Will you attend?*</option>
+                        <option value="true">Yes, I'll be there</option>
+                        <option value="false">No, I can't come</option>
+                    </select>
+                    <span asp-validation-for="WillAttend"></span>
+                </div>
+                <div class="row-12 justify-content-center">
+                    <p style="font-size: small">* mandatory field</p>
+                </div>
+                <div class="row-12 justify-content-center">
+                    <button type="submit" class="btn btn-outline-primary">Submit RSVP</button>
+                    <a asp-action="Index" class="btn btn-primary">Home</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
