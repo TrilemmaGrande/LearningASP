@@ -1,0 +1,11 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/.vs/LearningASP/config/applicationhost.config
+/.vs/LearningASP/FileContentIndex/26fcb516-1fbd-477f-8759-90be0ce96419.vsidx
+/.vs/LearningASP/FileContentIndex/7a6855be-dca6-4de4-8a6f-cd7e7a6a5c60.vsidx
+/.vs/LearningASP/FileContentIndex/9e821247-5698-4fe1-a46b-d585b0fad632.vsidx
+/.vs/LearningASP/FileContentIndex/b1b50ec1-4554-477b-a505-9400e9bdaac8.vsidx
+/.vs/LearningASP/FileContentIndex/f7964ae3-a3a9-46f4-9f0c-79d9624a1ae5.vsidx
+/.vs/slnx.sqlite
