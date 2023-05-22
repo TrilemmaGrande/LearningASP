@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="justify-content-center row">
+        <div class="col-4">
+            <h1 class="bg-primary text-white text-center">@ViewData["BodyTitle"]</h1>
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

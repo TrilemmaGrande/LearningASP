@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Result";
+    ViewData["BodyTitle"] = "Result";
+}
+@model Calculator 
+
+<div>
+    <table class="table table-bordered table-hover table-sm ">
+        <thead>
+            <tr><th>EUR</th><th></th><th>ZSK</th><th></th></tr>
+        </thead>
+        <tbody>
+            <tr><td>@Model.Euro</td><td>EUR</td><td>@Model.Cow</td><td> Kühe</td></tr>
+            <tr><td>@Model.RestEuro</td><td>Rest</td><td>@Model.Sheep</td><td> Schafe</td></tr>
+            <tr><td></td><td></td><td>@Model.Goat</td><td> Ziegen</td></tr>
+            <tr><td></td><td></td><td>@Model.LittleGoat</td><td> Kleine Ziegen</td></tr>
+        </tbody>
+    </table>
+    <a class="btn btn-primary" asp-action="EurToZsk">EUR zu ZSK</a>
+    <a class="btn btn-primary" asp-action="ZskToEur">ZSK zu EUR</a>
+</div>

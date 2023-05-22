@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "ZSK Rechner";
+    ViewData["BodyTitle"] = "EUR zu ZSK";
+}
+@model Calculator
+
+<div>
+    <a class="btn btn-primary" asp-action="ZskToEur">ZSK zu EUR</a>
+
+    <form asp-action="Result" method="post">
+        <input type="hidden" asp-for="EurToZsk" value="true" />
+        <div class="row">
+            <div class="col">
+                <input asp-for="Euro" placeholder="Euro" />
+                <input asp-for="Cow" placeholder="Kühe" disabled />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input asp-for="RestEuro" placeholder="Rest Euro" disabled />
+                <input asp-for="Sheep" placeholder="Schafe" disabled />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" disabled />
+                <input asp-for="Goat" placeholder="Ziegen" disabled />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" disabled />
+                <input asp-for="LittleGoat" placeholder="Kleine Ziegen" disabled />
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary" asp-action="Result">Berechne</button>
+    </form>
+</div>
