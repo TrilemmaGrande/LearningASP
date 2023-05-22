@@ -1,48 +1,49 @@
 ﻿@{
-    Layout = null;
+    ViewData["Title"] = "Shopping list";
+    ViewData["BodyTitle"] = "Shopping list";
 }
 @model List<Item>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Shopping list</title>
-    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-</head>
-<body>
-    <div class="justify-content-center text-center row">
-        <div class="col-2">
-            <h1 class="bg-primary text-white">Shopping list</h1>
-            <table class="table table-bordered table-hover">
-                <thead class="thead-dark m-4">
-                    <tr>
-                        <th>Item</th>
-                        <th>Amount</th>
-                        <th>Store</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td>@item.Name</td>
-                            <td>@item.Amount</td>
-                            <td>@item.Store</td>
-                            <td>
-                                <form asp-action="SubItem" method="post">
-                                    <input type="hidden" name="item" value="@Model.IndexOf(item)" />
-                                    <button class="btn btn-primary" type="submit">-</button>
-                                </form>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-            <div class="text-center">
-                <a class="btn btn-outline-primary" asp-action="Index">Home</a>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+<table class="table table-bordered table-hover">
+    <thead class="thead-dark m-4">
+        <tr>
+            <th></th>
+            <th>Item</th>
+            <th>Amount</th>
+            <th>Store</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Item item in Model)
+        {
+            <tr>
+                <td>
+                    <form asp-action="DelItem" method="post">
+                        <input type="hidden" name="itemID" value="@item.ID" />
+                        <button class="btn btn-primary" type="submit">del</button>
+                    </form>
+                </td>
+                <td>@item.Name</td>
+                <td>@item.Amount</td>
+                <td>@item.Store</td>
+                <td>
+                    <form asp-action="SubItem" method="post">
+                        <input type="hidden" name="itemID" value="@item.ID" />
+                        <button class="btn btn-primary" type="submit">-</button>
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="AddItem" method="post">
+                        <input type="hidden" name="itemID" value="@item.ID" />
+                        <button class="btn btn-primary" type="submit">+</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="text-center">
+    <a class="btn btn-outline-primary" asp-action="Index">Home</a>
+</div>

@@ -1,22 +1,10 @@
 ﻿@{
-    Layout = null;
+    ViewData["Title"] = "Confirmation";
+    ViewData["BodyTitle"] = "Item added";
 }
 @model Item
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Confirmation</title>
-    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-</head>
-<body>
-    <div class="justify-content-center text-center row">
-        <div class="col-2">
-            <h1 class="bg-primary text-white">Item added</h1>
-            <p>you added <span class="text-danger">@Model.Amount @Model.Name</span> to shopping list</p>
-            <a class="btn btn-outline-primary" asp-action="ListAdder">Add more</a>
-            <a class="btn btn-outline-primary" asp-action="Index">Home</a>
-        </div>
-    </div>
-</body>
-</html>
+<p>you added <span class="text-danger">@Model.Amount @Model.Name</span> to shopping list</p>
+<p>there are @ViewData["ArticleCount"] positions in list</p>
+<a class="btn btn-outline-primary" asp-action="ListAdder">Add more</a>
+<a class="btn btn-outline-primary" asp-action="Index">Home</a>

@@ -1,4 +1,5 @@
 ﻿using Aufgabe.Einkaufsliste.Models;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -22,15 +23,26 @@ namespace Aufgabe.Einkaufsliste.Controllers
         public IActionResult Confirmation(Item item)
         {
             Repository.AddItem(item);
+            ViewData["ArticleCount"] = Repository.GetItems().Count();
             return View(item);
         }
         public IActionResult ListViewer()
         {
             return View(Repository.GetItems());
         }
-        public IActionResult SubItem(int item)
+        public IActionResult DelItem(int itemID)
         {
-            Repository.items.RemoveAt(item);
+            Repository.RemoveItem(itemID);
+            return View("ListViewer", Repository.GetItems());
+        }
+        public IActionResult SubItem(int itemID)
+        {
+            Repository.SubAmount(itemID);
+            return View("ListViewer", Repository.GetItems());
+        }
+        public IActionResult AddItem(int itemID)
+        {
+            Repository.AddAmount(itemID);
             return View("ListViewer", Repository.GetItems());
         }
     }
