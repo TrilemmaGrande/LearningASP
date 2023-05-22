@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Wechselkurs";
+    ViewData["BodyTitle"] = "Wechselkurs";
+}
+
+<div>
+    <a class="btn btn-primary" asp-action="EurToZsk">EUR zu ZSK</a>
+    <a class="btn btn-primary" asp-action="ZskToEur">ZSK zu EUR</a>
+    <form asp-action="ExchangeRate" method="post">
+        <div class="row">
+            <div class="col">
+                <label asp-for="@Calculator.ExchangeRateCow">EUR pro Kuh</label>
+                <input asp-for="@Calculator.ExchangeRateCow" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label asp-for="@Calculator.ExchangeRateSheep">EUR pro Schaf</label>
+                <input asp-for="@Calculator.ExchangeRateSheep" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label asp-for="@Calculator.ExchangeRateGoat">EUR pro Ziege</label>
+                <input asp-for="@Calculator.ExchangeRateGoat" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label asp-for="@Calculator.ExchangeRateLittleGoat">EUR pro kleine Ziege</label>
+                <input asp-for="@Calculator.ExchangeRateLittleGoat" />
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Wechselkurs Ändern</button>
+    </form>
+</div>

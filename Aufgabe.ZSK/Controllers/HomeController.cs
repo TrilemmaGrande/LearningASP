@@ -35,5 +35,9 @@ namespace Aufgabe.ZSK.Controllers
             }
             return View(calc);
         }
+        public IActionResult ExchangeRate()
+        {
+            return View();
+        }
     }
 }
