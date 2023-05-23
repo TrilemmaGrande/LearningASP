@@ -3,11 +3,22 @@
 <head>
     <title>@ViewData["Title"]</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        body
+        {
+            background-color:bisque;
+        }
+        .btn
+        {
+            border-style:groove;
+            border-radius:50%;               
+        }
+    </style>
 </head>
 <body>
     <div class="justify-content-center row">
         <div class="col-4">
-            <h1 class="bg-light text-dark text-center">@ViewData["BodyTitle"]</h1>
+            <h1 class="bg-primary text-white text-center">@ViewData["BodyTitle"]</h1>
             @RenderBody()
         </div>
     </div>

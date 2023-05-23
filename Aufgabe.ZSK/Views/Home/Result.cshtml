@@ -2,20 +2,49 @@
     ViewData["Title"] = "Result";
     ViewData["BodyTitle"] = "Result";
 }
-@model Calculator 
+@model Calculator
 
 <div>
-    <table class="table table-bordered table-hover table-sm ">
-        <thead>
-            <tr><th>EUR</th><th></th><th>ZSK</th><th></th></tr>
-        </thead>
-        <tbody>
-            <tr><td>@Model.Euro</td><td>EUR</td><td>@Model.Cow</td><td> Kühe</td></tr>
-            <tr><td>@Model.RestEuro</td><td>Rest</td><td>@Model.Sheep</td><td> Schafe</td></tr>
-            <tr><td></td><td></td><td>@Model.Goat</td><td> Ziegen</td></tr>
-            <tr><td></td><td></td><td>@Model.LittleGoat</td><td> Kleine Ziegen</td></tr>
-        </tbody>
-    </table>
-    <a class="btn btn-light" asp-action="EurToZsk">EUR zu ZSK</a>
-    <a class="btn btn-light" asp-action="ZskToEur">ZSK zu EUR</a>
+    <div class="row">
+        <div class="col">
+            <input asp-for="Euro" placeholder="Euro" disabled />
+            <label asp-for="Euro">Euro</label>
+        </div>
+        <div class="col">
+            <input asp-for="Cow" placeholder="Kühe" disabled />
+            <label asp-for="Cow">Kühe</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input asp-for="RestEuro" placeholder="Rest Euro" disabled />
+            <label asp-for="RestEuro">Rest Euro</label>
+        </div>
+        <div class="col">
+            <input asp-for="Sheep" placeholder="Schafe" disabled />
+            <label asp-for="Sheep">Schafe</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="text" disabled />
+            <label></label>
+        </div>
+        <div class="col">
+            <input asp-for="Goat" placeholder="Ziegen" disabled />
+            <label asp-for="Goat">Ziegen</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="text" disabled />
+            <label></label>
+        </div>
+        <div class="col">
+            <input asp-for="LittleGoat" placeholder="Kleine Ziegen" disabled />
+            <label asp-for="LittleGoat">Kleine Ziegen</label>
+        </div>
+    </div>
+    <a class="btn btn-outline-primary m-2" asp-action="EurToZsk">EUR zu ZSK</a>
+    <a class="btn btn-outline-primary m-2" asp-action="ZskToEur">ZSK zu EUR</a>
 </div>

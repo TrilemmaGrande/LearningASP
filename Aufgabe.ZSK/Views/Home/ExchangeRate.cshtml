@@ -4,12 +4,12 @@
 }
 
 <div>
-    <a class="btn btn-light" asp-action="EurToZsk">EUR zu ZSK</a>
-    <a class="btn btn-light" asp-action="ZskToEur">ZSK zu EUR</a>
+    <a class="btn btn-outline-primary m-2" asp-action="EurToZsk">EUR zu ZSK</a>
+    <a class="btn btn-outline-primary m-2" asp-action="ZskToEur">ZSK zu EUR</a>
     <form asp-action="ExchangeRate" method="post">
         <div class="row">
             <div class="col">
-                <input asp-for="@Calculator.ExchangeRateCow" />
+                <input asp-for="@Calculator.ExchangeRateCow" disabled/>
                 <label asp-for="@Calculator.ExchangeRateCow">EUR pro Kuh</label>
             </div>
         </div>
@@ -31,6 +31,6 @@
                 <label asp-for="@Calculator.ExchangeRateLittleGoat">EUR pro kleine Ziege</label>
             </div>
         </div>
-        <button type="submit" class="btn btn-light">Wechselkurs Ändern</button>
+        <button type="submit" class="btn btn-outline-primary m-2">Wechselkurs Ändern</button>
     </form>
 </div>
