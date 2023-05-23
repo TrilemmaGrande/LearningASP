@@ -2,10 +2,10 @@
 {
     public class Calculator
     {
-        public static int ExchangeRateGoat { get; set; } = 500;
-        public static int ExchangeRateLittleGoat { get; set; } = 50;
-        public static int ExchangeRateSheep { get; set; } = 650;
-        public static int ExchangeRateCow { get; set; }
+        public static int ExchangeRateGoat = 500;
+        public static int ExchangeRateLittleGoat = 50;
+        public static int ExchangeRateSheep = 650;
+        public static int ExchangeRateCow;
         public int Goat { get; set; }
         public int LittleGoat { get; set; }
         public int Sheep { get; set; }
