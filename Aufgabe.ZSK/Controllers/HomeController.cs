@@ -35,8 +35,18 @@ namespace Aufgabe.ZSK.Controllers
             }
             return View(calc);
         }
+        [HttpGet]
         public IActionResult ExchangeRate()
         {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ExchangeRate(int ExchangeRateLittleGoat, int ExchangeRateGoat, int ExchangeRateSheep, int ExchangeRateCow)
+        {
+            Calculator.ExchangeRateLittleGoat = ExchangeRateLittleGoat;
+            Calculator.ExchangeRateGoat = ExchangeRateGoat;
+            Calculator.ExchangeRateSheep = ExchangeRateSheep;
+            Calculator.ExchangeRateCow = ExchangeRateCow;
             return View();
         }
     }

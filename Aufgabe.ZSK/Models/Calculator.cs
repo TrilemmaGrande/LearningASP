@@ -5,7 +5,7 @@
         public static int ExchangeRateGoat = 500;
         public static int ExchangeRateLittleGoat = 50;
         public static int ExchangeRateSheep = 650;
-        public static int ExchangeRateCow;
+        public static int ExchangeRateCow = (3 * ExchangeRateGoat) + (2 * ExchangeRateSheep);
         public int Goat { get; set; }
         public int LittleGoat { get; set; }
         public int Sheep { get; set; }
@@ -13,11 +13,6 @@
         public int Euro { get; set; }
         public int RestEuro { get; set; }
         public bool EurToZsk { get; set; }
-
-        public Calculator()
-        {
-            ExchangeRateCow = (3 * ExchangeRateGoat) + (2 * ExchangeRateSheep);
-        }
 
         public void CalculateEUR()
         {

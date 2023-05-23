@@ -5,8 +5,8 @@
 @model Calculator 
 
 <div>
-    <a class="btn btn-primary" asp-action="EurToZsk">EUR zu ZSK</a>
-    <a class="btn btn-primary" asp-action="ExchangeRate">Wechselkurs</a>
+    <a class="btn btn-light" asp-action="EurToZsk">EUR zu ZSK</a>
+    <a class="btn btn-light" asp-action="ExchangeRate">Wechselkurs</a>
     <form asp-action="Result" method="post">
         <input type="hidden" asp-for="EurToZsk" value="false" />
         <div class="row">
@@ -33,6 +33,6 @@
                 <input asp-for="LittleGoat" placeholder="Kleine Ziegen" disabled />
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Berechne</button>
+        <button type="submit" class="btn btn-light">Berechne</button>
     </form>
 </div>

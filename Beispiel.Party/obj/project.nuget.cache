@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SF2tImWtODLxffDih9tSyboBrf/UpsKtPaWVKQ8HCO3TbsW7IqJkUrRiqa8uc6D9ji2wGCv90wtpweiUyigXlg==",
+  "dgSpecHash": "rKRR/pkdTJjLEWrzljm9+TeonV46j2WQ/LfUGZ7dd2f78EzC9lQmaQf4cQebtqfKhTazY12EdwtnBy2WtRXeXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Trilemma\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.Party\\Beispiel.Party.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.Party\\Beispiel.Party.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

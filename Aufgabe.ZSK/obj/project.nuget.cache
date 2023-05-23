@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QjHNppHCGg/Ew+iXqTFUSeL/I5iKBeiElzs5NIGfTWABvgvwkW9pOwVrhv666XQUMbgxFRszzDKlXvp7kNXgSQ==",
+  "dgSpecHash": "qigbUfuMANyDYWaDd+oyjh+4a8Yi3QBP9IUXMPZuc4zC9FvYOdMMqhyKJ1rPXasHRcw+zENE71oPupho0D8X0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Trilemma\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Aufgabe.ZSK\\Aufgabe.ZSK.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Trilemma\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Aufgabe.ZSK\\Aufgabe.ZSK.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

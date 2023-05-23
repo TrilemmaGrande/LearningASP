@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Trilemma\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Trilemma\\.nuget\\packages",
+      "C:\\Users\\Nils Reinshagen\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Nils Reinshagen\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
