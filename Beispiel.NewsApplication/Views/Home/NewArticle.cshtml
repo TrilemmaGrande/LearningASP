@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Neuer Artikel";
+}
+@model Article
+
+<style>
+    .field-validation-error{
+        color: #f00;
+    }
+    .field-validation-valid{
+        display: none;
+    }
+</style>
+
+    <h3 class="bg-dark text-white text-center">Neuen Artikel anlegen</h3>
+
+    <form asp-action="NewArticle" method="post">
+        <div class="form-group">
+            <label asp-for="Headline"></label>
+            <input asp-for="Headline" class="form-control" />
+            <span asp-validation-for="Headline"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Content"></label>
+            <textarea asp-for="Content" class="form-control" rows="10"></textarea>
+            <span asp-validation-for="Content"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Author"></label>
+            <input asp-for="Author" class="form-control" />
+            <span asp-validation-for="Author"></span>
+        </div>
+        <button type="submit" class="btn btn-dark">Speichern</button>
+        <a asp-action="Index" class="btn btn-dark">Zurück</a>
+    </form>

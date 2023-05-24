@@ -38,3 +38,8 @@ C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsAp
 C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\obj\Debug\net5.0\Beispiel.NewsApplication.Views.pdb
 C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\bin\Debug\net5.0\libman.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\obj\Debug\net5.0\Razor\Views\Home\NewArticle.cshtml.g.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.NewsApplication\obj\Debug\net5.0\Razor\Views\Home\IndexDelete.cshtml.g.cs
