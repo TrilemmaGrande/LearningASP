@@ -16,7 +16,8 @@ meine. Ich bin so glücklich, mein Bester, so ganz in dem Gefühle von ruhigem D
 daß meine Kunst darunter leidet. Ich könnte jetzt nicht zeichnen, nicht einen Strich, und bin 
 nie ein größerer Maler gewesen als in diesen Augenblicken.",
                 Created = new DateTime(2022, 2, 25),
-                Author = "Werther"
+                Author = "Werther",
+                ImageFile = "image01.jpg"
             },
             new Article() {
                 Id = 2,
@@ -32,7 +33,8 @@ eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tell
 viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
 vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus",
                 Created = new DateTime(2022, 2, 26),
-                Author = "Lorem Lorem"
+                Author = "Lorem Lorem",
+                ImageFile = "image02.jpg"
             },
             new Article() {
                 Id = 3,
@@ -46,7 +48,8 @@ als erste sich erhob und ihren jungen Körper dehnte. »Es ist ein eigentümlich
 der Offizier zu dem Forschungsreisenden und überblickte mit einem gewissermaßen bewundernden Blick 
 den ihm doch wohlbekannten Apparat.",
                 Created = new DateTime(2022, 2, 27),
-                Author = "Kafka"
+                Author = "Kafka",
+                ImageFile = "image03.jpg"
             },
             new Article() {
                 Id = 4,
@@ -58,7 +61,8 @@ Name offensiv wie Bayern. Letzte Spiel hatten wir in Platz drei Spitzen: Elber, 
 Wir müssen nicht vergessen Zickler. Zickler ist eine Spitzen mehr, Mehmet eh mehr Basler. Ist klar diese 
 Wörter, ist möglich verstehen, was ich hab gesagt? Danke.",
                 Created = new DateTime(2022, 2, 28),
-                Author = "Trappatoni"
+                Author = "Trappatoni",
+                ImageFile = "image04.jpg"
             }
         };
         public static List<Article> GetAllArticles() {

@@ -12,31 +12,34 @@
 
 @if (Model.TopArticle != null)
 {
-    <h3 class="bg-dark text-white text-center">Top News</h3>
-    <a asp-action="Details" asp-route-id="@Model.TopArticle.Id" class="text-decoration-none text-reset">
-        <div class="card">
-            <div class="card-header fw-bold">
-                @Model.TopArticle.Headline
+    <h3 class="bg-dark text-white text-center my-2">Top News</h3>
+    <div class=" my-2">
+        <a asp-action="Details" asp-route-id="@Model.TopArticle.Id" class="text-decoration-none text-reset">
+            <div class="card">
+                <div class="card-header fw-bold">
+                    @Model.TopArticle.Headline
+                </div>
+                <div class="card-body">
+                    <img src="/img/@Model.TopArticle.ImageFile" alt="Hier ist ein Bild" class="img-fluid" />
+                    @if (Model.TopArticle.Content.Length > 100)
+                    {
+                        @Model.TopArticle.Content.Substring(0, 100) @:...
+                    }
+                    else
+                    {
+                        @Model.TopArticle.Content
+                    }
+                </div>
+                <div class="card-footer">
+                    @Model.TopArticle.Author | @Model.TopArticle.Created.ToShortDateString()
+                </div>
             </div>
-            <div class="card-body">
-                @if (Model.TopArticle.Content.Length > 100)
-                {
-                    @Model.TopArticle.Content.Substring(0, 100) @:...
-                }
-                else
-                {
-                    @Model.TopArticle.Content
-                }
-            </div>
-            <div class="card-footer">
-                @Model.TopArticle.Author | @Model.TopArticle.Created.ToShortDateString()
-            </div>
-        </div>
-    </a>
+        </a>
+    </div>
 }
 
-<h3 class="bg-dark text-white text-center mt-2">Weitere News</h3>
-<div class="row">
+<h3 class="bg-dark text-white text-center my-2">Weitere News</h3>
+<div class="row my-2">
     @foreach (var item in Model.Articles)
     {
         <div class="col-xl-3 col-md-4 col-sm-6 my-1">
@@ -46,6 +49,7 @@
                         @item.Headline
                     </div>
                     <div class="card-body">
+                        <img src="/img/@item.ImageFile" alt="Hier ist ein Bild" class="img-fluid" />
                         @if (item.Content.Length > 100)
                         {
                             @item.Content.Substring(0, 100) @:...

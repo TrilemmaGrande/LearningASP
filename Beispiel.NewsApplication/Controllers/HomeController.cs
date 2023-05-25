@@ -1,13 +1,22 @@
 ﻿using Beispiel.NewsApplication.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace Beispiel.NewsApplication.Controllers
 {
     public class HomeController : Controller
     {
+        private IWebHostEnvironment hostingEnvironment;
+
+        public HomeController(IWebHostEnvironment hostingEnvironment)
+        {
+            this.hostingEnvironment = hostingEnvironment;
+        }
         public IActionResult Index()
         {
             List<Article> articles = ArticleRepository.GetAllArticles()
@@ -23,6 +32,7 @@ namespace Beispiel.NewsApplication.Controllers
         [HttpGet]
         public IActionResult NewArticle()
         {
+            GetImageFiles();
             return View();                     
         }
         [HttpPost]
@@ -42,6 +52,7 @@ namespace Beispiel.NewsApplication.Controllers
             }
             else
             {
+                GetImageFiles();
                 return View();
             }
         }
@@ -66,6 +77,20 @@ namespace Beispiel.NewsApplication.Controllers
             ArticleRepository.DeleteArticle(id);
 
             return RedirectToAction("IndexDelete");
+        }
+        public IActionResult DeleteThisArticle(int id)
+        {
+            ArticleRepository.DeleteArticle(id);
+
+            return RedirectToAction("Index");
+        }
+        private void GetImageFiles()
+        {
+            string path = Path.Combine(hostingEnvironment.WebRootPath, "img");
+            string[] imageFiles = Directory.GetFiles(path)
+                                    .Select(s => Path.GetFileName(s))
+                                    .ToArray();
+            ViewData["ImageFiles"] = new SelectList(imageFiles);
         }
     }
 }

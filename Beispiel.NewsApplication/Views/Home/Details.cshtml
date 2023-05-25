@@ -3,23 +3,27 @@
 }
 @model Article
 
-@if (Model != null)
-{
-    <div class="card">
-        <div class="card-header text-center fw-bold">
-            @Model.Headline
+<div class="my-2">
+    @if (Model != null)
+    {
+        <div class="card">
+            <div class="card-header text-center fw-bold">
+                @Model.Headline
+            </div>
+            <div class="card-body">
+                <img src="/img/@Model.ImageFile" alt="Hier ist ein Bild" class="img-fluid" />
+                @Model.Content
+            </div>
+            <div class="card-footer">
+                @Model.Author | @Model.Created.ToShortDateString()
+            </div>
         </div>
-        <div class="card-body">
-            @Model.Content
-        </div>
-        <div class="card-footer">
-            @Model.Author | @Model.Created.ToShortDateString()
-        </div>
-    </div>
-}
-else
-{
-    <p class="text-danger">Artikel wurde nicht gefunden</p>
-}
+    }
+    else
+    {
+        <p class="text-danger">Artikel wurde nicht gefunden</p>
+    }
+</div>
 
 <a asp-action="Index" class="btn btn-dark">Zurück</a>
+<a asp-action="DeleteThisArticle" asp-route-id="@Model.Id" class="btn btn-dark">Artikel Löschen</a>

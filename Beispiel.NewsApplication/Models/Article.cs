@@ -13,5 +13,7 @@ namespace Beispiel.NewsApplication.Models
         public DateTime Created { get; set; }
         [Required(ErrorMessage = "Autor muss angegeben werden")]
         public string Author { get; set; }
+        [Required(ErrorMessage = "Bitte den Daitenamen für das Bild angeben")]
+        public string ImageFile { get; set; }
     }
 }
