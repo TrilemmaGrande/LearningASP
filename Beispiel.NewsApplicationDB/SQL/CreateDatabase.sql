@@ -1,0 +1,20 @@
+USE master;
+
+DROP DATABASE IF EXISTS NewsApplicationDB;
+GO
+
+CREATE DATABASE NewsApplicationDB;
+GO
+
+USE NewsApplicationDB;
+
+CREATE TABLE Article
+(
+	Id INT NOT NULL,
+	Headline VARCHAR(100) NOT NULL,
+	Content VARCHAR(max) NOT NULL,
+	Created DATETIME2 NOT NULL,
+	Author VARCHAR(50) NOT NULL,
+	ImageFile VARCHAR(50) NOT NULL,
+	CONSTRAINT PK_Article PRIMARY KEY (Id)
+);

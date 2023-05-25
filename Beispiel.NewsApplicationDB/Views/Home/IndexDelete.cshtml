@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Artikel Löschen";
+}
+@model IndexViewModel
+
+<style>
+    h1{
+        opacity:0.5;
+    }
+    .card:hover {
+        transform: scale(1.025);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+        background-color: #fee;
+    }
+</style>
+@if (Model.TopArticle != null)
+{
+    <h3 class="bg-dark text-white text-center opacity-50 my-2">Top News</h3>
+    <div class="my-2">
+        <a asp-action="DeleteArticle" asp-route-id="@Model.TopArticle.Id" class="text-decoration-none text-reset">
+            <div class="card opacity-50">
+                <div class="card-header fw-bold">
+                    @Model.TopArticle.Headline
+                </div>
+                <div class="card-body">
+                    <img src="/img/@Model.TopArticle.ImageFile" alt="Hier ist ein Bild" class="img-fluid" />
+                    @if (Model.TopArticle.Content.Length > 100)
+                    {
+                        @Model.TopArticle.Content.Substring(0, 100) @:...
+                    }
+                    else
+                    {
+                        @Model.TopArticle.Content
+                    }
+                </div>
+                <div class="card-footer">
+                    @Model.TopArticle.Author | @Model.TopArticle.Created.ToShortDateString()
+                </div>
+            </div>
+        </a>
+    </div>
+}
+
+<h3 class="bg-dark text-white text-center mt-2 opacity-50 my-2">Weitere News</h3>
+<div class="row my-2">
+    @foreach (var item in Model.Articles)
+    {
+        <div class="col-xl-3 col-md-4 col-sm-6 my-1">
+            <a asp-action="DeleteArticle" asp-route-id="@item.Id" class="text-decoration-none text-reset">
+                <div class="card h-100 opacity-50">
+                    <div class="card-header fw-bold">
+                        @item.Headline
+                    </div>
+                    <div class="card-body">
+                        <img src="/img/@item.ImageFile" alt="Hier ist ein Bild" class="img-fluid" />
+                        @if (item.Content.Length > 100)
+                        {
+                            @item.Content.Substring(0, 100) @:...
+                        }
+                        else
+                        {
+                            @item.Content
+                        }
+                    </div>
+                    <div class="card-footer">
+                        @item.Author | @item.Created.ToShortDateString()
+                    </div>
+                </div>
+            </a>
+        </div>
+    }
+</div>
+<a asp-action="Index" class="btn btn-dark">Zurück</a>
