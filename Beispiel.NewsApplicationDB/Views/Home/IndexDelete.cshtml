@@ -15,7 +15,7 @@
 </style>
 @if (Model.TopArticle != null)
 {
-    <h3 class="bg-dark text-white text-center opacity-50 my-2">Top News</h3>
+    <h3 class="bg-secondary text-white text-center opacity-50 my-2">Top News</h3>
     <div class="my-2">
         <a asp-action="DeleteArticle" asp-route-id="@Model.TopArticle.Id" class="text-decoration-none text-reset">
             <div class="card opacity-50">
@@ -41,7 +41,7 @@
     </div>
 }
 
-<h3 class="bg-dark text-white text-center mt-2 opacity-50 my-2">Weitere News</h3>
+<h3 class="bg-secondary text-white text-center mt-2 opacity-50 my-2">Weitere News</h3>
 <div class="row my-2">
     @foreach (var item in Model.Articles)
     {
@@ -70,4 +70,4 @@
         </div>
     }
 </div>
-<a asp-action="Index" class="btn btn-dark">Zurück</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Zurück</a>
