@@ -1,0 +1,16 @@
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\bin\Debug\net5.0\Beispiel.DependencyInjectionRight.exe
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\bin\Debug\net5.0\Beispiel.DependencyInjectionRight.deps.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\bin\Debug\net5.0\Beispiel.DependencyInjectionRight.runtimeconfig.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\bin\Debug\net5.0\Beispiel.DependencyInjectionRight.runtimeconfig.dev.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\bin\Debug\net5.0\Beispiel.DependencyInjectionRight.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\bin\Debug\net5.0\Beispiel.DependencyInjectionRight.pdb
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.csproj.AssemblyReference.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.AssemblyInfoInputs.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.AssemblyInfo.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.csproj.CoreCompileInputs.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\refint\Beispiel.DependencyInjectionRight.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.pdb
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\Beispiel.DependencyInjectionRight.genruntimeconfig.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionRight\obj\Debug\net5.0\ref\Beispiel.DependencyInjectionRight.dll
