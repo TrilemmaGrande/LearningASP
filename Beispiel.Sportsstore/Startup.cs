@@ -47,6 +47,10 @@ namespace Beispiel.Sportsstore
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "pagination",
+                    pattern: "Products/Page_{productPage}",
+                    defaults: new {Controller="Home", action="Index"});
                 endpoints.MapDefaultControllerRoute();
             });
 

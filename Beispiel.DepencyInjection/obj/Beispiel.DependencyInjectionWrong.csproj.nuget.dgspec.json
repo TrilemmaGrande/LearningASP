@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj": {}
+    "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj": {
+    "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj",
+        "projectUniqueName": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj",
         "projectName": "Beispiel.DependencyInjectionWrong",
-        "projectPath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj",
+        "projectPath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj",
         "packagesPath": "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\obj\\",
+        "outputPath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

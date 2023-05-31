@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj": {}
+    "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj": {
+    "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj",
+        "projectUniqueName": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj",
         "projectName": "Beispiel.DependencyInjectionRight",
-        "projectPath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj",
+        "projectPath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj",
         "packagesPath": "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\obj\\",
         "projectStyle": "PackageReference",
