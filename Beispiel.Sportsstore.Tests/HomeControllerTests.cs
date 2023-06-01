@@ -1,5 +1,6 @@
 using Beispiel.Sportsstore.Controllers;
 using Beispiel.Sportsstore.Models;
+using Beispiel.Sportsstore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using System;
@@ -29,8 +30,8 @@ namespace Beispiel.Sportsstore.Tests
             // Act
             var result = (controller.Index() as ViewResult)
                             .ViewData
-                            .Model as IEnumerable<Product>;
-            Product[] prodArray = result.ToArray();
+                            .Model as ProductListViewModel;
+            Product[] prodArray = result.Products.ToArray();
 
             // Assert
             Assert.True(prodArray.Length == 2);

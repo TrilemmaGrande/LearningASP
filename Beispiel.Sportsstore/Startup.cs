@@ -27,7 +27,7 @@ namespace Beispiel.Sportsstore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<StoreDbContext>(opts => 
+            services.AddDbContext<StoreDbContext>(opts =>
                 opts.UseSqlServer(config.GetConnectionString("SportsstoreConnection"))
                 );
             services.AddScoped<IStoreRepository, EFStoreRepository>();
@@ -48,9 +48,17 @@ namespace Beispiel.Sportsstore
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "pagination",
-                    pattern: "Products/Page_{productPage}",
-                    defaults: new {Controller="Home", action="Index"});
+                    name: "catpage",
+                    pattern: "{category}/Page_{productPage:int}",
+                    defaults: new { controller = "Home", action = "Index" });
+                endpoints.MapControllerRoute(
+                    name: "page",
+                    pattern: "Page_{productPage:int}",
+                    defaults: new { controller = "Home", action = "Index", productPage = 1 });
+                endpoints.MapControllerRoute(
+                    name: "category",
+                    pattern: "{category}",
+                    defaults: new { controller = "Home", action = "Index", productPage = 1 });               
                 endpoints.MapDefaultControllerRoute();
             });
 

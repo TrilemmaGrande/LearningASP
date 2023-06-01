@@ -13,11 +13,12 @@ namespace Beispiel.Sportsstore.Controllers
         {
             this.repo = repo;
         }
-        public IActionResult Index(int productPage = 1)
+        public IActionResult Index(string category, int productPage = 1)
         {
             ProductListViewModel plvm = new ProductListViewModel()
             {
                 Products = repo.Products
+                            .Where(p => category == null || p.Category == category)
                             .OrderBy(p => p.ProductID)
                             .Skip((productPage - 1) * PageSize)
                             .Take(PageSize),
@@ -25,10 +26,24 @@ namespace Beispiel.Sportsstore.Controllers
                 {
                     CurrentPage = productPage,
                     ItemsPerPage = PageSize,
-                    TotalItems = repo.Products.Count()
-                }
+                    TotalItems = repo.Products
+                                    .Where(p => category == null || p.Category == category)
+                                    .Count()
+                },
+                CurrentCategory = category
             };
             return View(plvm);
+        }
+        [HttpGet]
+        public IActionResult Cart(string returnUrl)
+        {
+            returnUrl = returnUrl ?? "/";
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Cart(long productId, string returnUrl)
+        {
+            return RedirectToAction(nameof(Cart), new {returnUrl});
         }
     }
 }

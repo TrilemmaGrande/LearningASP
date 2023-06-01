@@ -1,17 +1,21 @@
 ﻿@model ProductListViewModel
 
-<h4>Welcome to Sportstore</h4>
 
 @foreach (var p in Model.Products)
 {
-    <div>
-        <h3>@p.Name</h3>
-        @p.Description
-        <h4>@p.Price.ToString("c")</h4>
-    </div>
+   <partial name="ProductSummary" model="p" />
 }
 
-@for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
-{
-    <a asp-action="Index" asp-route-productPage="@i">@i</a>
-}
+<div class="btn-group pull-right m-1">
+    @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+    {
+        if (i == Model.PagingInfo.CurrentPage)
+        {
+            <a class="btn btn-dark text-white">@i</a>
+        }
+        else
+        {
+            <a asp-action="Index" asp-route-productPage="@i" class="btn btn-outline-dark">@i</a>
+        }
+    }
+</div>

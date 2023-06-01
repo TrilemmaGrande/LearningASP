@@ -1,0 +1,20 @@
+﻿@model IEnumerable<string>
+@if (String.IsNullOrEmpty(ViewBag.SelectedCategory))
+{
+    <a class="btn btn-block btn-dark text-white">Home</a>
+}
+else
+{
+    <a asp-action="Index" asp-route-category="" class="btn btn-block btn-outline-dark">Home</a>
+}
+@foreach (var item in Model)
+{
+    if (ViewBag.SelectedCategory == item)
+    {
+        <a class="btn btn-block btn-dark text-white">@item</a>
+    }
+    else
+    {
+        <a asp-action="Index" asp-route-category="@item" asp-route-productPage="1" class="btn btn-block btn-outline-dark">@item</a>
+    }
+}
