@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/2Vs9m/x1r1yawyFC3UdoQcHKvBjtyHPXqLtsNJnn39JjwK3Z4BxX3FO3NnAwGZoJSubQAnL/bmxllCgF/mGAQ==",
+  "dgSpecHash": "a0fPxhSi7don7FdOe9i80p4A+Y6+t2MoH9QVP3bd81Mwa0T9fI6WrHpiepyNSE7OLD4RLrD16FaX0vEswQD3OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.NewsApplicationDB\\Beispiel.NewsApplicationDB.csproj",
+  "projectFilePath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.NewsApplicationDB\\Beispiel.NewsApplicationDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -31,6 +31,8 @@ namespace Beispiel.Sportsstore
                 opts.UseSqlServer(config.GetConnectionString("SportsstoreConnection"))
                 );
             services.AddScoped<IStoreRepository, EFStoreRepository>();
+            services.AddDistributedMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +44,7 @@ namespace Beispiel.Sportsstore
             }
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
 

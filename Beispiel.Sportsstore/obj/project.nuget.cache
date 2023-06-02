@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4REbwWpRAKUl9fFCDMU1w8V1gnyrTlS7Kf5p2Gtjfc3Mg1vgWPY+2L+7oBq3VgojQjnqLy1ZIKNQlyfzodvjgQ==",
+  "dgSpecHash": "ALcdi84SJUBnUkwcIzXSSZ0yqX7ZMwxPpA7Y/WbaJ6wm1p9LBHkuIZXSXgjIHEu9VT05Oqt/Sj5THSe2LV0AMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.Sportsstore\\Beispiel.Sportsstore.csproj",
+  "projectFilePath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.Sportsstore\\Beispiel.Sportsstore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

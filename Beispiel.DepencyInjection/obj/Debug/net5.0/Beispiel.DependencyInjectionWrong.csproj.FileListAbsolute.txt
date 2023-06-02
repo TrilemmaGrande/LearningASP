@@ -1,0 +1,16 @@
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\bin\Debug\net5.0\Beispiel.DependencyInjectionWrong.exe
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\bin\Debug\net5.0\Beispiel.DependencyInjectionWrong.deps.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\bin\Debug\net5.0\Beispiel.DependencyInjectionWrong.runtimeconfig.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\bin\Debug\net5.0\Beispiel.DependencyInjectionWrong.runtimeconfig.dev.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\bin\Debug\net5.0\Beispiel.DependencyInjectionWrong.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\bin\Debug\net5.0\Beispiel.DependencyInjectionWrong.pdb
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.csproj.AssemblyReference.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.AssemblyInfoInputs.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.AssemblyInfo.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.csproj.CoreCompileInputs.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\refint\Beispiel.DependencyInjectionWrong.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.pdb
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\Beispiel.DependencyInjectionWrong.genruntimeconfig.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DepencyInjection\obj\Debug\net5.0\ref\Beispiel.DependencyInjectionWrong.dll

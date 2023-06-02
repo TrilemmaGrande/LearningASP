@@ -1,0 +1,16 @@
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\bin\Debug\net5.0\Beispiel.DependencyInjectionBetter.exe
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\bin\Debug\net5.0\Beispiel.DependencyInjectionBetter.deps.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\bin\Debug\net5.0\Beispiel.DependencyInjectionBetter.runtimeconfig.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\bin\Debug\net5.0\Beispiel.DependencyInjectionBetter.runtimeconfig.dev.json
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\bin\Debug\net5.0\Beispiel.DependencyInjectionBetter.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\bin\Debug\net5.0\Beispiel.DependencyInjectionBetter.pdb
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.csproj.AssemblyReference.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.AssemblyInfoInputs.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.AssemblyInfo.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.csproj.CoreCompileInputs.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\refint\Beispiel.DependencyInjectionBetter.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.pdb
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\Beispiel.DependencyInjectionBetter.genruntimeconfig.cache
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.DependencyInjectionBetter\obj\Debug\net5.0\ref\Beispiel.DependencyInjectionBetter.dll

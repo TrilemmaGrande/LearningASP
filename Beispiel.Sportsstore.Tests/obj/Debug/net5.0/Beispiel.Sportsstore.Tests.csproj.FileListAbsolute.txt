@@ -140,3 +140,4 @@ C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sports
 C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore.Tests\obj\Debug\net5.0\Beispiel.Sportsstore.Tests.pdb
 C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore.Tests\obj\Debug\net5.0\Beispiel.Sportsstore.Tests.genruntimeconfig.cache
 C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore.Tests\obj\Debug\net5.0\ref\Beispiel.Sportsstore.Tests.dll
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore.Tests\bin\Debug\net5.0\libman.json

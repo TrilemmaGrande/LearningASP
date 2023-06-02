@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj": {}
+    "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj": {
+    "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj",
+        "projectUniqueName": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj",
         "projectName": "Beispiel.DependencyInjectionBetter",
-        "projectPath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj",
+        "projectPath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\Beispiel.DependencyInjectionBetter.csproj",
         "packagesPath": "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionBetter\\obj\\",
         "projectStyle": "PackageReference",

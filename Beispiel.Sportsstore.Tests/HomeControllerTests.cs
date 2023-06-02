@@ -28,7 +28,7 @@ namespace Beispiel.Sportsstore.Tests
             HomeController controller = new HomeController(mock.Object);
 
             // Act
-            var result = (controller.Index() as ViewResult)
+            var result = (controller.Index(null) as ViewResult)
                             .ViewData
                             .Model as ProductListViewModel;
             Product[] prodArray = result.Products.ToArray();

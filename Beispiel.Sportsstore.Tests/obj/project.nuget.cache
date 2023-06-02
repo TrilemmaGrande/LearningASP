@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kLoqqzTkmMXeZ37HlScpj2o/hx5tW4MkAO2si5ogeedz6DQjI75+Ld6WRSyGDsLytQ/9xkRdFkzD/b2TJdul5w==",
+  "dgSpecHash": "Hu6HUU2vfYSbRxBvILQcqDHh/SFA2ukkPVEKY6D7OJcMlkKLRY98ZmPQbwPoniDIZ+QdcV6oihZAG8XjhHC/6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.Sportsstore.Tests\\Beispiel.Sportsstore.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.Sportsstore.Tests\\Beispiel.Sportsstore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",

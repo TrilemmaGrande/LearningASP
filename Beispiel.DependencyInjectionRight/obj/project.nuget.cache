@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "29BhurVM/aUoioUq2lzq+UI+q8U7RLUNliieQMsMK/zM1ieCscoZPu26RB2NCxO8sSf9EYbXaRohL1DEtE6hhg==",
+  "dgSpecHash": "L6eaf96tNixmVuj0UiJaH8N/rJpx8wxf+yRBOIKoAWOBS0dxxLG+SrIPT9PCfMsJD53wPO79Hg7TObOBNNoqtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nils Reinshagen\\Source\\Repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj",
+  "projectFilePath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DependencyInjectionRight\\Beispiel.DependencyInjectionRight.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nils Reinshagen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
