@@ -1,4 +1,5 @@
-﻿using Beispiel.Sportsstore.Models;
+﻿using Beispiel.Sportsstore.Infrastructure;
+using Beispiel.Sportsstore.Models;
 using Beispiel.Sportsstore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -37,12 +38,21 @@ namespace Beispiel.Sportsstore.Controllers
         [HttpGet]
         public IActionResult Cart(string returnUrl)
         {
-            returnUrl = returnUrl ?? "/";
-            return View();
+            CartViewModel cvm = new CartViewModel()
+            {
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart(),
+                ReturnUrl = returnUrl ?? "/"
+            };
+            return View(cvm);
         }
         [HttpPost]
         public IActionResult Cart(long productId, string returnUrl)
         {
+            Cart cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+            Product product = repo.Products
+                                .FirstOrDefault(p => p.ProductID == productId);
+            cart.AddItem(product, 1);
+            HttpContext.Session.SetJson("cart", cart);
             return RedirectToAction(nameof(Cart), new {returnUrl});
         }
     }
