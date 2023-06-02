@@ -76,3 +76,4 @@ C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sports
 C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore\obj\Debug\net5.0\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
 C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore\obj\Debug\net5.0\Razor\Views\Home\Cart.cshtml.g.cs
 C:\Users\Nils Reinshagen\Source\Repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore\obj\Debug\net5.0\Razor\Views\Shared\_CartLayout.cshtml.g.cs
+C:\Users\Nils Reinshagen\source\repos\TrilemmaGrande\LearningASP\Beispiel.Sportsstore\obj\Debug\net5.0\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs
