@@ -55,5 +55,13 @@ namespace Beispiel.Sportsstore.Controllers
             HttpContext.Session.SetJson("cart", cart);
             return RedirectToAction(nameof(Cart), new {returnUrl});
         }
+        public IActionResult RemoveLine(long productId, string returnUrl)
+        {
+            Cart cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+            Product product = cart.Lines.First(l => l.Product.ProductID == productId).Product;
+            cart.RemoveLine(product);
+            HttpContext.Session.SetJson("cart", cart);
+            return RedirectToAction(nameof(Cart), new { returnUrl });
+        }
     }
 }
