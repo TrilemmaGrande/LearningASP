@@ -31,6 +31,7 @@ namespace Beispiel.Sportsstore
                 opts.UseSqlServer(config.GetConnectionString("SportsstoreConnection"))
                 );
             services.AddScoped<IStoreRepository, EFStoreRepository>();
+            services.AddScoped<IOrderRepository, EFOrderRepository>();
             services.AddDistributedMemoryCache();
             services.AddSession();
         }
