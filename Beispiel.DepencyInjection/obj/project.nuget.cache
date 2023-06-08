@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xH11WsRRz8JXLIOYICai8gnxh8/m+F71SUmx/f22RkmmJqXAvnmHbI2zFhcEPZP+ygFgtxxYnnwE7XNlNI1AKg==",
+  "dgSpecHash": "9ybgCzxq8hXMYFxbR5K7fHkg6B37v0NKqZnic7I//8r/cqa/v+W53GeRZt/DCEYIGniQGH92ex3ua1XRr29Izg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nils Reinshagen\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj",
+  "projectFilePath": "C:\\Users\\trilemma\\source\\repos\\TrilemmaGrande\\LearningASP\\Beispiel.DepencyInjection\\Beispiel.DependencyInjectionWrong.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
